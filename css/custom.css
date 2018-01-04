@@ -1,0 +1,21 @@
+.logo-img {
+    width: 100%;
+}
+
+.content {
+    padding: 2em;
+    background-color: #25265c;
+}
+
+.menu {
+    padding: 6px;
+    text-align: center;
+}
+
+.menu-button {
+    width: 49%;
+    min-width: 195px;
+    color: #25275b;
+    background-color: #faf007;
+    border-color: #ffffff;
+}
