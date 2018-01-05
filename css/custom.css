@@ -37,6 +37,11 @@
     padding: 0;
 }
 
+.fb-icon {
+    width: 36px;
+    margin-top: 1em;
+}
+
 /* BANNER */
 
 .banner {
@@ -49,10 +54,20 @@
     height: 10em;
 }
 
+.banner h4 {
+    padding-top: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 /* Larger than phablet */
 @media (min-width: 550px) {
     .banner-img {
-        height: 23em;
+        height: 19em;
+    }
+
+    .banner h4 {
+        padding-top: 13%;
     }
 }
 
@@ -66,14 +81,6 @@
     background-size: cover;
 }
 
-.banner-items {}
-
-.banner h3 {
-    padding-top: 13%;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
 /* DETAIL */
 
 .detail {
@@ -81,7 +88,7 @@
 }
 
 .infobox {
-    margin: 1em;
+    margin: 1em 0;
     padding: 2em;
     border-radius: 5px;
 }
