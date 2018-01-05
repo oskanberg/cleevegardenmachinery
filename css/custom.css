@@ -46,12 +46,30 @@
 }
 
 .banner-img {
-    /*width: 100%;*/
+    height: 10em;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+    .banner-img {
+        height: 23em;
+    }
+}
+
+.chainsaw {
+    background: url('../img/chainsaw.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.cut {
+    background: url('../img/cut.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .banner-items {}
 
 .banner h3 {
+    padding-top: 13%;
     font-weight: bold;
     text-transform: uppercase;
 }
