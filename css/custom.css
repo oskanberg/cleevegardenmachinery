@@ -85,6 +85,10 @@
 
 .detail {
     background-color: #74a55b;
+    border-bottom: 10em solid transparent;
+    border-image-repeat: round;
+    border-image-source: url(../img/grass.png);
+    border-image-slice: 248;
 }
 
 .infobox {
