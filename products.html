@@ -23,10 +23,10 @@
                 </div>
                 <div class="three columns">
                     <div class="menu">
-                        <a class="button menu-button" href="/#about">About</a>
-                        <a class="button menu-button" href="/#sar">Service & Repairs</a>
-                        <a class="button menu-button" href="/#sales">Sales</a>
-                        <a class="button menu-button" href="/#find">Find Us</a>
+                        <a class="button menu-button" href="index.html#about">About</a>
+                        <a class="button menu-button" href="index.html#sar">Service & Repairs</a>
+                        <a class="button menu-button" href="index.html#sales">Sales</a>
+                        <a class="button menu-button" href="index.html#find">Find Us</a>
                         <div>
                             <a href="https://facebook.com/cleevegardenmachinery" target="_blank"><img src="img/fb.png" class="u-max-full-width fb-icon"></a>
                         </div>
@@ -42,19 +42,8 @@
                     <h4>Products</h4>
                 </div>
             </div>
-            <div class="row product-item">
-                <div class="product-image four columns">
-                    <p>
-                        Image goes here
-                    </p>
-                </div>
-                <div class="product-description four columns">
-                    <h5>Pa dolore volorer spedio</h5>
-                    <p>This is a wonderful mower. It's really fast and looks fantastic. Cuts like a beaut.</p>
-                </div>
-                <div class="product-price four columns">
-                    <h4>£1300</h4>
-                </div>
+            <div id="products">
+                <!-- products go here -->
             </div>
             <div class="row">
                 <div class="eight offset-by-two columns other infobox">
@@ -66,6 +55,23 @@
             </div>
         </div>
     </div>
+
+    <div style="display: none" id="template">
+        <div class="row product-item">
+            <div class="four columns">
+                <img class="product-image" />
+            </div>
+            <div class="four columns">
+                <h5 class="product-name"></h5>
+                <p class="product-description"></p>
+            </div>
+            <div class="text-align-right four columns">
+                <h4 class="product-price"></h4>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/products.js" charset="utf-8"></script>
 </body>
 
 </html>
