@@ -1,4 +1,4 @@
-const endpoint = "http://178.62.24.41:3003/api/collections/get/products?token=a9bed48fd1e3ba6f4f37ec8a88aaca";
+const endpoint = "https://os-t.com/cgm-api/api/collections/get/products?token=a9bed48fd1e3ba6f4f37ec8a88aaca";
 
 
 const template = document.getElementById("template").children[0];
