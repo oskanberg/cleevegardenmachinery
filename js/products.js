@@ -14,7 +14,13 @@ function newProduct(name, description, price, image) {
     node.getElementsByClassName("product-price")[0].innerHTML = price;
 
     // image
+
+    // image can be either absolute (i.e. starts http) or relative (i.e. starts with /)
+    if (!image.startsWith("http")) {
+        image = "https://os-t.com/cgm-api/" + image;
+    }
     node.getElementsByClassName("product-image")[0].src = image;
+
     return node;
 }
 
